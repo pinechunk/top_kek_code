@@ -31,14 +31,3 @@ class Stack:
                 if value > self.max:
                     self.max = value
         return removed
-
-    def get_max(self):
-        return self.max
-
-s = Stack()
-s.push(199)
-s.push(27)
-s.push(35)
-print(s.stack)
-s.pop()
-print(s.max)
